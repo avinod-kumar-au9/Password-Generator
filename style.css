@@ -1,11 +1,9 @@
-body{
+body {
   padding: 0;
   margin: 0;
 }
 
-
-.container{
-
+.container {
   /* margin: 30px 0; */
   /* border: 1px solid red; */
   background-color: #726767;
@@ -14,37 +12,33 @@ body{
   height: 100vh;
 }
 
-.container *{
+.container * {
   padding-left: 10px;
   margin: 10px 0;
   font-size: large;
 }
 
-input[type="checkbox"]{
-
+input[type="checkbox"] {
   width: 20px;
   height: 20px;
-  
 }
 
-.password{
-  width: 350px;
+.password {
+  min-width: 400px;
   height: 50px;
   background-color: rgb(146, 171, 192);
   color: white;
   font-size: 20px;
   padding-left: 10px;
-  
-
 }
 
-.title{
+.title {
   font-weight: 800;
   font-size: 40px;
   color: rgb(212, 167, 83);
 }
 
-button{
+button {
   width: 200px;
   height: 50px;
 }
